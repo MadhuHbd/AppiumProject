@@ -27,7 +27,7 @@ public class Common extends BasicActions{
 		performClick(obj.getLoginBtn());
 		fn_WaitForElement(obj.getEnglishRadio(), 20);
 		performClick(obj.getButton().get(1));
-		return verifyTestPass(obj.getMenuBtn());
+		return verifyElementDisplay(obj.getMenuBtn());
 	}
 	
 	public boolean searchThenBuyproduct(String product){
